@@ -1,6 +1,6 @@
 # Solidity-Template
 
-## Abourt this repository
+## About this repository
 
 ## Prerequisite
 * Visual Studio Code<br>
