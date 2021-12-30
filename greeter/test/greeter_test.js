@@ -24,7 +24,8 @@ contract("Greeter", (accounts) => {
             assert(owner, "the current owner");
         });
 
-        it("matches the address that originally deployed the contract", async () => { const greeter = await GreeterContract.deployed();
+        it("matches the address that originally deployed the contract", async () => { 
+            const greeter = await GreeterContract.deployed();
             const owner = await greeter.owner();
             const expected = accounts[0];
 
